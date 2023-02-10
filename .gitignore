@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+dist
+dist-ssr
+**/lib
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.zip
+
+packages/zzhou-ui/ui/vue-zzhou-ui.ts
+packages/zzhou-ui/ui/theme/theme.scss
+packages/zzhou-ui/ui/theme/darkTheme.css
+packages/zzhou-ui/docs/.vitepress/config/sidebar.ts
+packages/zzhou-ui/docs/.vitepress/config/enSidebar.ts
+packages/zzhou-ui/docs/.vitepress/config.ts.js
+packages/zzhou-ui/build
+**CHANGELOG.md
+# test
+packages/zzhou-ui/coverage
+packages/zzhou-ui/ui/**/__snapshots__
+.pnpm-debug.log
